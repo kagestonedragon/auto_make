@@ -4,7 +4,7 @@ Auto_make it's easiest way to create your own Makefile.
 
 ### Not working
 
-* `-L` — add a third-party library to the project (only `%.c` files) [Will be available soon]
+* `-L` — add a third-party library to the project (only `%.a` files) <i>[Will be available soon]</i>
 
 * `Maybe other things :)` Let me know about it.
 
