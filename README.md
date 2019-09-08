@@ -37,10 +37,15 @@ Run auto_make with parameters:
 ```
 ./auto_make auto_make -S sources -I includes
 ```
-<p align="center">
-  <img src="/pics/console.png" width="100%" alt="auto_make information" align="left"/>
-</p>
+
+Information
 
 <p align="center">
-  <img src="/pics/makefile.png" width="100%" alt="auto_make information" align="left"/>
+  <img src="/pics/console.png" width="70%" alt="auto_make information" align="left"/>
+</p>
+
+Generated Makefile
+
+<p align="center">
+  <img src="/pics/makefile.png" width="70%" alt="auto_make information" align="left"/>
 </p>
