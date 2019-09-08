@@ -2,8 +2,13 @@
 
 Auto_make it's easiest way to create your own Makefile.
 
-### How to install
+### Not working
 
+* `-L`— add a third-party library to the project (only `%.c` files) [Will be available soon]
+
+* Maybe other things :) Let me know about it.
+
+### How to install
 
 1) Clone repository to the root directory
 ```
@@ -20,7 +25,6 @@ make -C ~/auto_make
 cp ~/auto_make/auto_make <path to the project directory>
 ```
 
-
 ### How to use
 
 ```
@@ -28,7 +32,7 @@ cp ~/auto_make/auto_make <path to the project directory>
 ```
 Run auto_make with parameters:
 * `<output file>` — name of the output file (`% = EXECUTABLE`, `%.a = LIBRARY`)
-* `-S` — recursive search in directrories (only `%.c` files)
+* `-S`— recursive search in directrories (only `%.c` files)
 * `-I` — search header files in directories (only `%.h` files)
 
 <b>Example</b>
