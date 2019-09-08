@@ -33,7 +33,7 @@ cp ~/auto_make/auto_make <path to the project directory>
 ```
 Run auto_make with parameters:
 * `<output file>` — name of the output file (`% = EXECUTABLE`, `%.a = LIBRARY`)
-* `-S` — recursive search in directrories (only `%.c` files)
+* `-S` — recursive search in directories (only `%.c` files)
 * `-I` — search header files in directories (only `%.h` files)
 
 <b>Example</b>
