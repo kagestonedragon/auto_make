@@ -1,9 +1,11 @@
 # Auto_make
 
 
+
 Auto_make it's easiest way to create your own Makefile.
 
 ### How to install
+
 
 1) Clone repository to root directory
 ```
@@ -36,6 +38,6 @@ Run auto_make with parameters:
 ./auto_make auto_make -S sources -I includes
 ```
 <p align="center">
-  <img src="console.png" width="48%" alt="auto_make information" align="left"/>
+  <img src="/pics/console.png" width="48%" alt="auto_make information" align="left"/>
 </p>
 
