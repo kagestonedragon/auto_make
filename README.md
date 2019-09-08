@@ -1,7 +1,5 @@
 # Auto_make
 
-
-
 Auto_make it's easiest way to create your own Makefile.
 
 ### How to install
@@ -44,10 +42,6 @@ Run auto_make with parameters:
 
 
 ### Generated Makefile
-
-<p align="center">
-  <img src="/pics/makefile.png" width="85%" alt="generated Makefile"/>
-</p>
 
 ```make
 ########################################################
