@@ -39,12 +39,12 @@ Run auto_make with parameters:
 ```
 
 <p align="center">
-  <p> Information </p>
   <img src="/pics/console.png" width="1000%" alt="auto_make information"/>
 </p>
 
 
+### Generated Makefile
+
 <p align="center">
-  <p> Generated Makefile </p>
   <img src="/pics/makefile.png" width="85%" alt="generated Makefile"/>
 </p>
