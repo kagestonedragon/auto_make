@@ -48,3 +48,9 @@ Run auto_make with parameters:
 <p align="center">
   <img src="/pics/makefile.png" width="85%" alt="generated Makefile"/>
 </p>
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
