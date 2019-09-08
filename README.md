@@ -5,7 +5,7 @@ Auto_make it's easiest way to create your own Makefile.
 ### How to install
 
 
-1) Clone repository to root directory
+1) Clone repository to the root directory
 ```
 https://github.com/kagestonedragon/auto_make.git ~/auto_make
 ```
