@@ -1,6 +1,7 @@
 # Auto_make
 
-Auto_make it's easiest way to create your own Makefile. <b>C Language projects only</b>
+Auto_make it's easiest way to create your own Makefile. 
+<b>C Language projects only.</b>
 
 ### Not working
 
