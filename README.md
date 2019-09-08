@@ -20,15 +20,16 @@ make -C ~/auto_make
 cp ~/auto_make/auto_make <path to the project directory>
 ```
 
+
 ### How to use
 
 ```
 ./auto_make <output file> -S <dir1> <dir2> ... -I <dir1> ...
 ```
 Run auto_make with parameters:
-* `1 parameter` — output file name
-* `-S` — recursive read files from directrories (.c)
-* `-I` — read header files from directories (.c)
+* `<output file>` — name of the output file (% = EXECUTABLE, %.a = LIBRARY)
+* `-S` — recursive search in directrories (only %.c files)
+* `-I` — search header files in directories (only %.h files)
 
 <b>Example</b>
 
