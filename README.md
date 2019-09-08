@@ -38,6 +38,6 @@ Run auto_make with parameters:
 ./auto_make auto_make -S sources -I includes
 ```
 <p align="center">
-  <img src="/pics/console.png" width="48%" alt="auto_make information" align="left"/>
+  <img src="/pics/console.png" width="100%" alt="auto_make information" align="left"/>
 </p>
 
