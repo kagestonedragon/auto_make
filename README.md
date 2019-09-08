@@ -24,12 +24,18 @@ cp ~/auto_make/auto_make <path to the project directory>
 ### How to use
 
 ```
-./auto_make <output file> -S <dir1> <dir2> ... -I <dir1> ...
+./auto_make <output file> -S <sd1> <sd2> ... -I <id1> ...
 ```
 Run auto_make with parameters:
-* `<output file>` — name of the output file (% = EXECUTABLE, %.a = LIBRARY)
-* `-S` — recursive search in directrories (only %.c files)
-* `-I` — search header files in directories (only %.h files)
+* `<output file>` — name of the output file (`% = EXECUTABLE`, `%.a = LIBRARY`)
+* `-S` — recursive search in directrories (only `%.c` files)
+* `-I` — search header files in directories (only `%.h` files)
 
 <b>Example</b>
+```
+./auto_make auto_make -S sources -I includes
+```
+<p align="center">
+  <img src="console.png" width="48%" alt="auto_make information" align="left"/>
+</p>
 
