@@ -65,12 +65,12 @@ static int      add_files(FILE *f, t_auto_make *core)
     {
         fprintf(f, "%s_FILES = ", temporary_dir->variable);
         temporary_list = temporary_dir->files;
+        fprintf(f, "\\\n");
         while (temporary_list)
         {
-            fprintf(f, "%s ", temporary_list->data);
+            fprintf(f, "\t\t%s \\\n", temporary_list->data);
             temporary_list = temporary_list->next;
         }
-        fprintf(f, "\n");
         temporary_dir = temporary_dir->next;
     }
     fprintf(f, "\n");
@@ -102,7 +102,7 @@ static int      add_combined_objects(FILE *f, t_auto_make *core)
         fprintf(f, "$(OBJ_%s_CORE) ", temporary_dir->variable);
         temporary_dir = temporary_dir->next;
     }
-    fprintf(f, "\n");
+    fprintf(f, "\n\n");
     return (0);
 
 }

@@ -67,11 +67,20 @@ INCLUDES_INCLUDE = includes/
 
 SOURCES_PATH = sources/
 
-SOURCES_FILES = create_makefile.c errors.c get_variables.c information.c main.c parsing.c parsing_directories.c parsing_files.c 
+SOURCES_FILES = \
+		create_makefile.c \
+		errors.c \
+		get_variables.c \
+		information.c \
+		main.c \
+		parsing.c \
+		parsing_directories.c \
+		parsing_files.c \
 
 OBJ_SOURCES_CORE = $(addprefix $(OBJ_PATH), $(SOURCES_FILES:.c=.o))
 
-OBJECTS = $(OBJ_SOURCES_CORE) 
+OBJECTS = $(OBJ_SOURCES_CORE)
+
 all: $(NAME)
 
 $(NAME): $(OBJECTS)
@@ -94,5 +103,4 @@ objects:
 objects/%.o: $(SOURCES_PATH)%.c | objects
 		@($(GCC) $(GCC_FLAGS) -I $(INCLUDES_INCLUDE) -c $< -o $@)
 		@(echo "[0;93m"$< "->" $@"[0;0m")
-
 ```
