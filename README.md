@@ -27,7 +27,7 @@ Run auto_make with parameters:
 * `-S` — recursive read files from directrories (.c)
 * `-I` — read header files from directories (.c)
 
-# Example
+<b>Example</b>
 ```
 ./auto_make auto_make -S sources -I includes
 ```
