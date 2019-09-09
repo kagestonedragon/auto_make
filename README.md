@@ -1,7 +1,9 @@
 # Auto_make
 
-Auto_make it's easiest way to create your own Makefile. 
+iAuto_make it's easiest way to create your own Makefile. 
 <b>C Language projects only.</b>
+
+Also try <a href="https://github.com/kagestonedragon/auto_header">Auto_header</a>. With it, you can write a script that will help automate routine work.
 
 ### Not working
 

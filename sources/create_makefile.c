@@ -68,8 +68,11 @@ static int      add_files(FILE *f, t_auto_make *core)
         fprintf(f, "\\\n");
         while (temporary_list)
         {
-            fprintf(f, "\t\t%s \\\n", temporary_list->data);
-            temporary_list = temporary_list->next;
+            fprintf(f, "\t\t%s ", temporary_list->data);
+            if ((temporary_list = temporary_list->next))
+                fprintf(f, "\\\n");
+            else
+                fprintf(f, "\n");
         }
         temporary_dir = temporary_dir->next;
     }

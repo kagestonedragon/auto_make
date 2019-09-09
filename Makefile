@@ -24,7 +24,7 @@ SOURCES_FILES = \
 		main.c \
 		parsing.c \
 		parsing_directories.c \
-		parsing_files.c \
+		parsing_files.c 
 
 OBJ_SOURCES_CORE = $(addprefix $(OBJ_PATH), $(SOURCES_FILES:.c=.o))
 
