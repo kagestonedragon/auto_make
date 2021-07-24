@@ -1,5 +1,7 @@
 # Auto_make
 
+`Проект реализовывался в рамках обучения в "Школе 21". С его помощью удалось избавиться от рутины ручной генерации примитивных мейкфайлов для сборки проектов на си.`
+
 Auto_make it's easiest way to create your own Makefile. 
 <b>C Language projects only.</b>
 
